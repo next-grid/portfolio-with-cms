@@ -28,7 +28,7 @@ export const SiteMenu = ({ className, isOpen }: SiteMenuProps) => {
           <MenuLink to={ROUTES.projects.to()} text="Home" />
         </RadixMenu.Item>
         <RadixMenu.Item>
-          <MenuLink to={ROUTES.about.to()} text="About" />
+          <MenuLink to={ROUTES.about.to()} text="All About " />
         </RadixMenu.Item>
         <RadixMenu.Item>
           <FloatingContentWithTrigger text="Projects" isOpen={isOpen}>
